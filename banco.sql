@@ -1,0 +1,9 @@
+CREATE DATABASE nac; USE nac;
+CREATE TABLE cadastro(
+  id_cadastro INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(255) NOT NULL,
+  rg VARCHAR(50) NOT NULL,
+  telefone VARCHAR(50),
+  cidade VARCHAR(150),
+  estado CHAR(2)
+);

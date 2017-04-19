@@ -1,0 +1,87 @@
+/*RESET BÁSICO*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #444;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  color:#222;
+}
+a{
+  font-size: 18px;
+  text-decoration: none;
+  color:#099;
+}
+a:hover{
+  color:#222;
+}
+
+.container{
+  width: 70%;
+  height: auto;
+
+  margin: 20px auto;
+  background-color: #ccc;
+
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.logo{
+  font-style: normal;
+  font-family: fantasy;
+  font-weight: 100;
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+
+.table{
+  width: 90%;
+  height: auto;
+  min-height: 100px;
+  margin: 50px auto;
+}
+
+
+.cadastrar{
+  width: 60%;
+  height: auto;
+
+  margin: 20px auto;
+
+  background: #c1c1c1;
+
+  color:#081;
+  text-align: left;
+
+}
+
+.cadastrar input,label{
+  width: 80%;
+  height: 30px;
+  margin:0 50px;
+}
+
+.cadastrar button{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 20px;
+  background-color: #298;
+  padding: 20px;
+  border: 0;
+  color: #fff;
+}
+
+.filtro button{
+  margin-left: 20px;
+  background-color: #298;
+  padding: 10px;
+  border: 0;
+  color: #fff;
+}
